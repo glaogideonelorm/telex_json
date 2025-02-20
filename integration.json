@@ -13,7 +13,7 @@
     },
     "is_active": true,
     "integration_type": "modifier",
-    "integration_category": "Task Automation",  // <-- added field with a valid category
+    "integration_category": "Task Automation", 
     "key_features": [
       "\"Sends IP address to external Node.js server\"",
       "\"Easy integration with Node.js backend\""
