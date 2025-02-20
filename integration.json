@@ -1,33 +1,32 @@
 {
   "data": {
     "date": {
-      "created_at": "2025-02-19",
-      "updated_at": "2025-02-19"
+      "created_at": "2025-02-09",
+      "updated_at": "2025-02-09"
     },
     "descriptions": {
-      "app_name": "IP Sender Integration",
-      "app_description": "Sends data to server",
-      "app_logo": "https://example.com/logo.png",
-      "app_url": "https://s1fl2dfr-3000.uks1.devtunnels.ms",
+      "app_name": "Webhook Slug Logger",
+      "app_description": "Logs payloads to a webhook URL defined by a slug.",
+      "app_logo": "https://i.imgur.com/bRoRB1Y.png",
+      "app_url": "https://e4ab-102-176-94-49.ngrok-free.app",
       "background_color": "#fff"
     },
     "is_active": true,
-    "integration_type": "modifier",
-    "integration_category": "Task Automation", 
+    "integration_type": "output",
     "key_features": [
-      "\"Sends IP address to external Node.js server\"",
-      "\"Easy integration with Node.js backend\""
+      "- Logs payloads to webhook.site or any webhook endpoint"
     ],
-    "author": "Gideon Elorm",
+    "integration_category": "Monitoring & Logging",
+    "author": "Gideon ELorm",
+    "website": "https://e4ab-102-176-94-49.ngrok-free.app",
     "settings": [
       {
-        "label": "Node.js Server URL",
+        "label": "webhook-slug",
         "type": "text",
         "required": true,
-        "default": "https://s1fl2dfr-3000.uks1.devtunnels.ms"
+        "default": ""
       }
     ],
-    "target_url": "https://s1fl2dfr-3000.uks1.devtunnels.ms",
-    "tick_url": "\"\""
+    "target_url": "https://e4ab-102-176-94-49.ngrok-free.app"
   }
 }
