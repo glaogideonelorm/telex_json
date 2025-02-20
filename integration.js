@@ -1,35 +1,23 @@
-const integrationConfig = {
+{
     "data": {
       "date": {
         "created_at": "2025-02-19",
         "updated_at": "2025-02-19"
       },
       "descriptions": {
-        "app_description": "Integration that sends the client's IP address to an external Node.js server.",
-        "app_logo": "https://example.com/logo.png",
         "app_name": "IP Sender Integration",
-        "app_url": "https://example.com",
-        "background_color": "#FFFFFF"
+        "app_description": "Sends data to server",
+        "app_logo": "https://example.com/logo.png",
+        "app_url": "https://370a-102-176-94-199.ngrok-free.app",
+        "background_color": "#fff"
       },
-      "integration_category": "Monitoring & Logging",
-      "integration_type": "modifier",
       "is_active": true,
-      "output": [
-        {
-          "label": "IP Address",
-          "value": true
-        }
-      ],
+      "integration_type": "modifier",
       "key_features": [
-        "Sends IP address to external Node.js server",
-        "Easy integration with Node.js backend"
+        "\"Sends IP address to external Node.js server\"",
+        "\"Easy integration with Node.js backend\""
       ],
-      "permissions": {
-        "monitoring_user": {
-          "always_online": true,
-          "display_name": "IP Monitor"
-        }
-      },
+      "author": "Gideon Elorm",
       "settings": [
         {
           "label": "Node.js Server URL",
@@ -38,9 +26,7 @@ const integrationConfig = {
           "default": "https://370a-102-176-94-199.ngrok-free.app"
         }
       ],
-      "target_url": "https://370a-102-176-94-199.ngrok-free.app"
+      "target_url": "https://370a-102-176-94-199.ngrok-free.app",
+      "tick_url": "\"\""
     }
-  };
-  
-  module.exports = integrationConfig;
-  
+  }
