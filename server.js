@@ -9,7 +9,7 @@ const integrationConfig = require('./integration');
 app.get('/', (req, res) => {
   res.json(integrationConfig);
 });
-
+ 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
