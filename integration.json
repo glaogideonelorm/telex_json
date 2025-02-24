@@ -19,14 +19,7 @@
     "integration_category": "Monitoring & Logging",
     "author": "Gideon ELorm",
     "website": "https://email-spam-checker-production.up.railway.app",
-    "settings": [
-      {
-        "label": "webhook-slug",
-        "type": "text",
-        "required": true,
-        "default": ""
-      }
-    ],
+    "settings": [],
     "target_url": "https://email-spam-checker-production.up.railway.app"
   }
 }
